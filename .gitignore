@@ -1,3 +1,14 @@
-.DS_Store
-My project/Library/
+# Unity generated files
 Library/
+Temp/
+obj/
+BurstLibrary/
+Logs/
+usermgmt.userprefs
+
+# User-specific settings
+*.userprefs
+
+# OS generated files
+.DS_Store
+Thumbs.db
