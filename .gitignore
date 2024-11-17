@@ -4,11 +4,12 @@ Temp/
 obj/
 BurstLibrary/
 Logs/
+UserSettings/
 usermgmt.userprefs
 
 # User-specific settings
 *.userprefs
-
+*.log
 # OS generated files
 .DS_Store
 Thumbs.db
