@@ -13,11 +13,8 @@ public class CardUI : MonoBehaviour
     public void OnDrawButtonClicked()
     {
         Card drawnCard = cardPool.DrawCard();
-        if (drawnCard != null)
-        {
-            cardImage.sprite = drawnCard.image;
-            cardName.text = drawnCard.name;
-        }
+        cardImage.sprite = drawnCard.image;
+        cardName.text = drawnCard.name;
     }
 
 }

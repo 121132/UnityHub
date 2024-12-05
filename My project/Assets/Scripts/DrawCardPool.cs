@@ -47,6 +47,6 @@ public class DrawCardPool : MonoBehaviour
         }
 
         Card nullCard = new Card("非酋没抽到", nullImage);
-        return nullCard;  // 理论上不会到这一步
+        return nullCard;
     }
 }
